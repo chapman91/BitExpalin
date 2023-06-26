@@ -1,0 +1,183 @@
+* {
+    box-sizing: border;
+    padding:0;
+    margin:0;
+    background-color: #c1c2c4;
+}
+
+
+li, a {
+    font-family: "Montserrat", sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    color: #f0f3f7;
+    text-decoration:none ; 
+}
+
+.logo {
+    cursor: pointer;
+    order: 3;
+    margin-left: auto; 
+    width: 30px;
+    height: auto;
+    display: block;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 1%;
+}
+
+.nav_links {
+    list-style:none;
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    align-items:left;
+    border-radius: 50px;
+}
+
+.nav_links li {
+    float: left;
+    /*display: inline-block;*/
+    padding: 0px 20px;
+
+}
+
+.nav_links li  {
+    transition: all 0.0s ease 0s;
+}
+
+.nav_links li a:hover {
+    color:#0088a9;
+    
+}
+
+button {
+   padding: 9px 25px; 
+   background-color: #3882F6;
+   border: none;
+   border-radius: 50px;
+   cursor: pointer;
+   transition: all 0.0s ease 0s;
+}
+
+
+
+
+
+
+/* This Part of the code is to style the body of the website */
+
+
+/* This accesses the body of the website*/
+main {
+    display: flex;
+    flex-direction: column; /* or row, depending on the desired layout */
+    justify-content: space-around; /* aligns sections vertically */
+    align-items: left; /* aligns sections horizontally */
+  }
+ 
+#hero {
+    padding: 50px 30px;
+    margin: 30px;
+    justify-content: space-around;
+}
+
+.hero-item1 {
+    justify-content: space-around;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.btn {
+        display: flex;
+        background-color: #4c5eaf;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px; 
+        margin-top: 20px; /* Adjust the value as needed */  
+        display: inline-block;
+        box-shadow: inset 0 0 0 0 #f6a738;
+        transition: ease-out 0.3s;
+}
+
+/* Styling the third section of the webpage: Three items align next to each other*/
+
+/* #Random {
+    display: flex;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center; 
+    justify-content: center; 
+    height: 200px;
+
+    
+}
+
+.random-item {
+    padding: 50px;
+}
+
+.container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    margin: 50px;
+    padding: 30px;  
+    justify-content: space-between;
+}
+
+.text-box h2 {
+    font-size: 36px;
+    align-items: center;
+
+}
+
+
+img {
+    max-width: 200px;
+    height: 200px;
+    border-radius: 4px;
+    border: #f0f3f7;
+}
+
+
+.testimonial {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 36px;
+    padding: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 30px;  
+}
+
+
+
+
+
+
+
+
+/* This is moving the h2 element to the center of the page just below the ending of the first section*/
+
+
+
